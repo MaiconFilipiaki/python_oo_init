@@ -46,6 +46,9 @@ class Playlist:
         self.nome = nome.title()
         self._programas = programas
 
+    def __getitem__(self, item):
+        return self._programas[item]
+
     @property
     def listagem(self):
         return self._programas
@@ -72,7 +75,7 @@ filmes_e_series = [vingadores, got, demolidor, tmep]
 
 playlist_fim_de_semana = Playlist("fim de semana", filmes_e_series)
 
-print(len(playlist_fim_de_semana))
+# print(len(playlist_fim_de_semana))
 
 for programa in playlist_fim_de_semana:
     print(programa)
