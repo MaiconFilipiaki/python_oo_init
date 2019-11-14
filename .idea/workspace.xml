@@ -50,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.multiple">
     <configuration name="modelo" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="oo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,8 +73,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="multiple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="oo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/multipleInheritance" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multipleInheritance/multiple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multiple" />
         <item itemvalue="Python.modelo" />
       </list>
     </recent_temporary>
@@ -94,7 +117,7 @@
       <workItem from="1573730987555" duration="4473000" />
       <workItem from="1573748355094" duration="629000" />
       <workItem from="1573749011855" duration="62000" />
-      <workItem from="1573749129448" duration="1305000" />
+      <workItem from="1573749129448" duration="3791000" />
     </task>
     <task id="LOCAL-00001" summary=":construction: utilizando uma class nativa do python">
       <created>1573750983708</created>
@@ -103,7 +126,28 @@
       <option name="project" value="LOCAL" />
       <updated>1573750983708</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":construction: utilizando uma class nativa do python">
+      <created>1573751060970</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573751060970</updated>
+    </task>
+    <task id="LOCAL-00003" summary=":ambulance: remocao de heranca da class List">
+      <created>1573751453473</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573751453473</updated>
+    </task>
+    <task id="LOCAL-00004" summary=":construction: DUCK TYPING">
+      <created>1573751835500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1573751835500</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,9 +168,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":construction: utilizando uma class nativa do python" />
-    <option name="LAST_COMMIT_MESSAGE" value=":construction: utilizando uma class nativa do python" />
+    <MESSAGE value=":ambulance: remocao de heranca da class List" />
+    <MESSAGE value=":construction: DUCK TYPING" />
+    <option name="LAST_COMMIT_MESSAGE" value=":construction: DUCK TYPING" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/oo$modelo.coverage" NAME="modelo Coverage Results" MODIFIED="1573750353407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inheritanceAndEncapsulation" />
+    <SUITE FILE_PATH="coverage/oo$multiple.coverage" NAME="multiple Coverage Results" MODIFIED="1573754598461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/multipleInheritance" />
+    <SUITE FILE_PATH="coverage/oo$modelo.coverage" NAME="modelo Coverage Results" MODIFIED="1573752043513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/inheritanceAndEncapsulation" />
   </component>
 </project>
